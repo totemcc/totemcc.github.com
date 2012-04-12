@@ -4,44 +4,13 @@
 
 # Abstract
 
-This paper seeks to broaden the view of what programming is, who programs, and how programming fits in to larger systems.
-
-As a case study, this paper presents Recursive Drawing, a port of the textual programming language Context Free to a directly manipulable interface.
-
-XXX
+This paper seeks to broaden the view of what programming is, who programs, and how programming fits in to larger systems. With growing frequency, people are approaching programming from unlikely backgrounds such as the arts. Often these new programmers bring with them ways of working which are incompatible with mainstream programming practices, but which allow for new possibilities in programming interfaces. This paper makes suggestions for the design of these new programming interfaces: thinking of programming interfaces as constraint solvers rather than compilers or interpreters, looking at programming as the process of program transformation rather than program construction, and de-emphasizing the use of numbers as the primary objects of manipulation. As a case study, this paper presents Recursive Drawing, a port of the textual programming language Context Free to a directly manipulable interface.
 
 # Introduction
 
-## Motivation
+This paper posits the emergence of a new generation of "alternative programmers". This new generation has no programming background, but has a need to program computers in order to realize their goals. Indeed they approach programming from unrelated backgrounds, from well-developed disciplines with their own paradigms for understanding the world.
 
-The ideas in this paper were explored and user tested during my time as a Masters' student at New York University's Interactive Telecommunications Program (ITP). ITP is a multidisciplinary program which is part of NYU's art school but features a strong technology focus. Students come from diverse backgrounds: theater, photography, sociology, law, philosophy, physics, biology, industrial design, architecture, etc. Many enter the program with no prior computer programming experience, though they all leave with some.
-
-During my time at ITP, I observed how my fellow students learned programming concepts and negotiated with the programming world in order to realize their projects. By negotiating with the programming world I mean, for example, finding and appropriating existing code, working around technical problems by finding non-technical solutions, and seeking and sharing programming advice within the ITP community and outside of it.
-
-Prior to ITP, I had professionally explored concepts from the academic programming languages community such as functional programming, functional reactive programming, and actor-based concurrency. Many of these concepts make programming simpler, yet by and large they are rejected by the mainstream programming community.
-
-Largely this rejection is due to inertia. Our existing programming tools support certain programming paradigms. It makes sense to build new tools on existing tools, which reinforces support for these paradigms. But more subtly, because these are the programming tools that are available for beginner programmers, the programming community self-selects for people who naturally think in these paradigms.
-
-This paper posits the emergence of a new generation of "alternative programmers". This new generation has no programming background, but has a need to program computers in order to realize their goals. Indeed they approach programming from entirely unrelated backgrounds, from well-developed disciplines with their own paradigms for understanding the world.
-
-This new generation of programmers provides an opportunity to radically shift the way programming is done.
-
-Indeed 
-
-
-
- those who are unsatisfied with the current state of programming with an opportunity to radically shift the way programming is done. But to realize this opportunity, we will need to be sensitive to backgrounds and goals of this new generation, and to reconsider the activity of programming itself.
-
-
-
-There are many concepts worth exploring from the academic programming languages community. Many of these concepts, such as functional programming, functional reactive programming, and actor-based concurrency (to name a few) can make programming simpler. Yet by and large, these new ways of programming are not swiftly adopted by the mainstream programming community.
-
-
-
-There is no shortage of good ideas in the academic programming languages community. Many of these ideas make programming simpler. 
-
-
-## Structure
+This influx of new programmers provides an opportunity to radically shift the way programming is done. But to realize this opportunity, we will need to be sensitive to the backgrounds and goals of this new generation, and to reconsider the activity of programming itself.
 
 This paper explores the notion of *alternative programming interfaces* for the next generation of *alternative programmers*. 
 
@@ -55,7 +24,7 @@ Section 8 concludes.
 
 # What are Alternative Programming Interfaces?
 
-I will divide programming interfaces into three aspects: physical, conceptual, and social.
+I will address programming interfaces from three perspectives: physical, conceptual, and social.
 
 ## Physical Interfaces
 
@@ -105,7 +74,7 @@ Finally, the question of who should program I will address in the next section.
 
 Many profound advances in programming were the result of people reconsidering the question, *who are the programmers*? Engelbart's NLS expanded the view of programmers from business analysts and artificial intelligence researchers to any information worker. Smalltalk originally focused on children as programmers. Hypercard was developed and distributed at Bill Atkinson's insistence that "end users" need programming capabilities. [http://www.savetz.com/ku/ku/quick_genius_behind_hypercard_bill_atkinson_the_november_1987.html] Even web programming, at least initially, promoted a culture where anybody could contribute their content or software to the web.^[There seems to be a pattern where an environment is developed for alternative programmers, then as a consequence of success is overtaken by "real" programmers. Adobe Flash, originally designed for animators who wanted to add interaction, also follows this pattern.]
 
-I believe a new generation of programmers is emerging. These "alternative" programmers are anybody who, if you ask them what they do, would not reply "I am a programmer", yet who regularly program computers in order to achieve their goals. Alternative programmers can include for example musicians, performers, writers, visual artists, designers, scientists, architects, and activists.
+I believe a new generation of programmers is emerging. These "alternative" programmers are people who do not self-identify as programmers, but who regularly program computers in order to achieve their goals. Alternative programmers can include for example musicians, performers, writers, visual artists, designers, scientists, architects, and activists.
 
 Evidence of this emergence includes:
 
