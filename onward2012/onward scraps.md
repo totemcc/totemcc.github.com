@@ -22,3 +22,39 @@ This incompatibility frustrated me on one level because creative visions might b
 
 
 
+
+
+
+
+
+
+
+
+
+# Numbers are Overloaded
+
+Numbers are heavily emphasized in elementary mathematics education and in traditional programming practices. So much so that the general populace believes that mathematics is *about* numbers and computers are *about* manipulating numbers. Of course the mathematics enthusiast knows that numbers are just one instance of many mathematical objects. Likewise, computers are capable of manipulating any mathematical object. Further, computers afford interface possibilities in working with these objects that paper does not. 
+
+Like other primitives of the abstraction pyramid, numbers are an underlying representation which we unduly expose to the programmer. In many cases, the use of a number, or group of numbers, could be replaced in a graphical programming interface with a *space*. Likewise, operators and functions on numbers could be replaced with *spatial transformations*.
+
+When creating programs of purely graphical concern, such as those created in Recursive Drawing, the elimination of numbers is natural. When it is achieved, it allows the programmer to think spatially throughout the programming process. In Context Free, the programmer is thinking spatially but Context Free requires her to perform the extra mental step of translating to numbers.
+
+Other application targets ripe for introducing graphical programming interfaces using spatial primitives include:
+
+1. OpenGL Shading Language (GLSL) shaders. GLSL is a language for writing programs which run on the GPU to calculate graphic rendering effects. The language is based on C, with extensions for vector and matrix math. All of the concerns of GLSL are spatial: vertices in 3D space, pixels on a 2D image, even colors in RGBA^[Red, Green, Blue, and Alpha (amount of transparency)] space. Most GLSL programs can be conceived as transformations within and between these spaces.
+2. Computer vision algorithms. Typical tasks of computer vision algorithms can be conceived as spatial transformations. Image pre-processing is the composed of color space transformations. Primitive feature detection 
+3. Machine learning algorithms. 
+
+Another target ripe for replacement with a graphical interface using spatial primitives is 
+
+Higher order abstractions are still available 
+
+For programmers who excelled at the type of mathematics taught in schools, this will require disengaging from the symbolic manipulation part of the mind, and re-engaging the visual intuition.
+
+
+Will require disengaging from the style of mathematics which is drilled in schools, and 
+
+
+XXX
+
+Machine learning algorithms, feature space
