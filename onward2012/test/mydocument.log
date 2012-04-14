@@ -1,0 +1,176 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.4.12)  14 APR 2012 00:08
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**mydocument
+(./mydocument.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ba
+sque, danish, dutch, finnish, french, german, ngerman, swissgerman, hungarian, 
+italian, bokmal, nynorsk, polish, portuguese, spanish, swedish, loaded.
+(/usr/local/texlive/2011basic/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2011basic/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2011basic/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count87
+)
+(/usr/local/texlive/2011basic/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+No file mydocument.aux.
+\openout1 = `mydocument.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 11.
+
+Package natbib Warning: Citation `pd' on page 1 undefined on input line 16.
+
+
+Package natbib Warning: Citation `maxmsp' on page 1 undefined on input line 17.
+
+
+
+Package natbib Warning: Citation `vvvv' on page 1 undefined on input line 18.
+
+
+Package natbib Warning: Citation `quartzcomposer' on page 1 undefined on input 
+line 19.
+
+
+Package natbib Warning: Citation `isadora' on page 1 undefined on input line 20
+.
+
+
+Package natbib Warning: Citation `field' on page 1 undefined on input line 21.
+
+
+Package natbib Warning: Citation `wekinator' on page 1 undefined on input line 
+22.
+
+
+Package natbib Warning: Citation `inventing' on page 1 undefined on input line 
+23.
+
+
+Package natbib Warning: Citation `kay' on page 1 undefined on input line 24.
+
+
+Package natbib Warning: Citation `sketchpad' on page 1 undefined on input line 
+25.
+
+
+Package natbib Warning: Citation `nls' on page 1 undefined on input line 26.
+
+
+Package natbib Warning: Citation `github' on page 1 undefined on input line 27.
+
+
+
+Package natbib Warning: Citation `ror' on page 1 undefined on input line 28.
+
+
+Package natbib Warning: Citation `hypercard' on page 1 undefined on input line 
+29.
+
+
+Package natbib Warning: Citation `arduino' on page 1 undefined on input line 30
+.
+
+
+Package natbib Warning: Citation `processing' on page 1 undefined on input line
+ 31.
+
+
+Package natbib Warning: Citation `dynamicpictures' on page 1 undefined on input
+ line 32.
+
+
+Package natbib Warning: Citation `contextfree' on page 1 undefined on input lin
+e 33.
+
+
+Package natbib Warning: Citation `logo' on page 1 undefined on input line 34.
+
+
+Package natbib Warning: Citation `sicp' on page 1 undefined on input line 35.
+
+
+Package natbib Warning: Citation `haskell' on page 1 undefined on input line 36
+.
+
+
+Package natbib Warning: Citation `sussman' on page 1 undefined on input line 37
+.
+
+
+Package natbib Warning: Citation `designeveryday' on page 1 undefined on input 
+line 38.
+
+
+Package natbib Warning: Citation `inmates' on page 1 undefined on input line 39
+.
+
+No file mydocument.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[1
+
+{/usr/local/texlive/2011basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./mydocument.aux) ) 
+Here is how much of TeX's memory you used:
+ 664 strings out of 494752
+ 7640 string characters out of 3171020
+ 54258 words of memory out of 3000000
+ 3942 multiletter control sequences out of 15000+200000
+ 7888 words of font info for 28 fonts, out of 3000000 for 9000
+ 166 hyphenation exceptions out of 8191
+ 21i,6n,22p,137b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2011basic/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2011basic/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2011basic/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on mydocument.pdf (1 page, 44575 bytes).
+PDF statistics:
+ 28 PDF objects out of 1000 (max. 8388607)
+ 19 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

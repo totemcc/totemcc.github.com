@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: mydocument.aux
+The style file: abbrvnat.bst
+Database file #1: myrefs.bib
+Warning--to sort, need author or key in vvvv
+Warning--to sort, need author or key in field
+Warning--to sort, need author or key in github
+Warning--to sort, need author or key in arduino
+Warning--empty year in arduino
+Warning--empty year in github
+Warning--empty year in vvvv
+Warning--empty year in isadora
+Warning--empty year in processing
+Warning--empty year in ror
+Warning--empty year in maxmsp
+Warning--empty year in pd
+Warning--empty institution in sussman
+You've used 24 entries,
+            2773 wiz_defined-function locations,
+            718 strings with 7165 characters,
+and the built_in function-call counts, 8284 in all, are:
+= -- 738
+> -- 370
+< -- 18
++ -- 139
+- -- 114
+* -- 553
+:= -- 1245
+add.period$ -- 80
+call.type$ -- 24
+change.case$ -- 107
+chr.to.int$ -- 23
+cite$ -- 65
+duplicate$ -- 406
+empty$ -- 781
+format.name$ -- 136
+if$ -- 1765
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 10
+newline$ -- 133
+num.names$ -- 80
+pop$ -- 289
+preamble$ -- 1
+purify$ -- 86
+quote$ -- 0
+skip$ -- 346
+stack$ -- 0
+substring$ -- 103
+swap$ -- 35
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 244
+warning$ -- 13
+while$ -- 65
+width$ -- 0
+write$ -- 311
+(There were 13 warnings)
