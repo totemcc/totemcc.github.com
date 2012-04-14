@@ -4,7 +4,7 @@
 
 # Introduction
 
-This paper posits the emergence of a new generation of "alternative programmers". This new generation has no programming background, but has a need to program computers in order to realize their goals. Indeed they approach programming from unrelated backgrounds, from well-developed disciplines with their own paradigms for understanding the world.
+This paper posits the emergence of a new generation of "alternative programmers." This new generation has no programming background, but has a need to program computers in order to realize their goals. Indeed they approach programming from unrelated backgrounds, from well-developed disciplines with their own paradigms for understanding the world.
 
 This influx of new programmers provides an opportunity to radically shift the way programming is done. But to realize this opportunity, we will need to be sensitive to the backgrounds and goals of this new generation, and to reconsider the activity of programming itself.
 
@@ -40,7 +40,7 @@ Alternative physical interface possibilities for programming include:
 2. Touch screen interfaces. Building on visual interfaces, but with the human touching the screen directly. Two potential advantages over mouse-based visual interfaces are a more direct feeling of manipulation of the screen's output, and the expressive possibilities of multiple points of contact (multitouch).
 3. Arbitrary interfaces. These include the human communicating to the computer using physical gestures in space, sounds, or the manipulation of peripheral sensors such as knobs and accelerometers. The computer communicates back visually, aurally, or haptically.
 
-None of these alternative physical interfaces have produced widely adopted general purpose programming environments. However, they have had significant success in limited domains. Patching environments such as PD, Max/MSP, vvvv, Quartz Composer, and Isadora use visual interfaces with dataflow semantics to program interactive audio and visual works. Rebecca Fiebrink's Wekinator uses arbitrary inputs (such as cameras and accelerometers) and arbitrary outputs (usually sound) to program novel musical instruments using a supervised learning workflow both on the part of the computer (recognizing human gestures) and the human (learning to "play" the instrument).^[http://wekinator.cs.princeton.edu/]
+None of these alternative physical interfaces have produced widely adopted general purpose programming environments. However, they have had significant success in limited domains. Patching environments such as PD^[X], Max/MSP^[X], vvvv^[X], Quartz Composer^[X], and Isadora^[X] use visual interfaces with dataflow semantics to program interactive audio and visual works. Rebecca Fiebrink's Wekinator^[http://wekinator.cs.princeton.edu/] uses arbitrary inputs (such as cameras and accelerometers) and arbitrary outputs (usually sound) to program novel musical instruments using a supervised learning workflow both on the part of the computer (recognizing human gestures) and the human (learning to "play" the instrument).
 
 I see three reasons to continue pursuing these alternative physical interfaces, in growing order of importance:
 
@@ -60,11 +60,11 @@ Social interfaces concern programming's relationship to society and how program 
 2. How should we program together?
 3. Who should program?
 
-A traditional, now humorously out-dated view, is that programming is calculating. Computer operators feed problems into a (physically huge) computer which spits out an answer. Calculation (usually prefaced with "cold") is the antithesis of humane, creative activity. We have made inroads towards a new perspective, where programming is seen as a creative, collaborative process between human and machine. This is largely due to pioneering work such as Ivan Sutherland's Sketchpad and Douglas Engelbart's NLS. Yet the traditional view still maintains a hold on the collective (un)consciousness. Many people are intimidated by computers, or intimidated by programming. They see the computer as *The Other*, a soulless entity with whom they cannot engage.
+A traditional, now humorously out-dated view, is that programming is calculating. Computer operators feed problems into a (physically huge) computer which spits out an answer. Calculation (usually prefaced with "cold") is the antithesis of humane, creative activity. We have made inroads towards a new perspective, where programming is seen as a creative, collaborative process between human and machine. This is largely due to pioneering work such as Ivan Sutherland's Sketchpad^[X] and Douglas Engelbart's NLS^[X]. Yet the traditional view still maintains a hold on the collective (un)consciousness. Many people are intimidated by computers, or intimidated by programming. They see the computer as *The Other*, a soulless entity with whom they cannot engage.
 
-The next question concerns how we relate to our human collaborators in programming. People have always worked together in teams when appropriate, but the internet and platforms such as Github have made the world of code more like an ecosystem than ever before.
+The next question concerns how we relate to our human collaborators in programming. People have always worked together in teams when appropriate, but the internet and platforms such as Github^[X] have made the world of code more like an ecosystem than ever before.
 
-The semantics of a language often reflect and reinforce the organizational structures that collaborate using the language. Social interactions are subtle--and I want to avoid making sweeping generalizations--but for the purposes of illustration I will provide a stereotyped example: Java's semantics reinforce an insulated hierarchical organization of programmers where one programmer cannot "step on the toes" of another. Contrast this with Ruby, whose semantics encourage substantial monkeying with the language internals. Ruby's semantics thus require more cross-communicative teams, necessarily smaller, or alternatively the top-down institution of conventions like Rails.
+The semantics of a language often reflect and reinforce the organizational structures that collaborate using the language. Social interactions are subtle--and I want to avoid making sweeping generalizations--but for the purposes of illustration I will provide a stereotyped example: Java's semantics reinforce an insulated hierarchical organization of programmers where one programmer cannot "step on the toes" of another. Contrast this with Ruby, whose semantics encourage substantial monkeying with the language internals. Ruby's semantics thus require more cross-communicative teams, necessarily smaller, or alternatively the top-down institution of conventions like Rails^[X].
 
 I am not implying that any one way of collaborating is better or worse, just that there is a relationship between programming interface design and the way we work with each other. I see substantial opportunities to research the sociological implications of human collaboration in programming.
 
@@ -72,14 +72,14 @@ Finally, the question of who should program I will address in the next section.
 
 # Who are Alternative Programmers?
 
-Many profound advances in programming were the result of people reconsidering the question, *who are the programmers*? Engelbart's NLS expanded the view of programmers from business analysts and artificial intelligence researchers to any information worker. Smalltalk originally focused on children as programmers. Hypercard was developed and distributed at Bill Atkinson's insistence that "end users" need programming capabilities.^[http://www.savetz.com/ku/ku/quick_genius_behind_hypercard_bill_atkinson_the_november_1987.html] Even web programming, at least initially, promoted a culture where anybody could contribute their content or software to the web.^[There seems to be a pattern where an environment is developed for alternative programmers, then as a consequence of success is overtaken by "real" programmers. Adobe Flash, originally designed for animators who wanted to work with interaction, also follows this pattern.]
+Many profound advances in programming were the result of people reconsidering the question, *who are the programmers*? Engelbart's NLS expanded the view of programmers from business analysts and artificial intelligence researchers to any information worker.^[X] Smalltalk originally focused on children as programmers.^[X] Hypercard was developed and distributed at Bill Atkinson's insistence that "end users" need programming capabilities.^[http://www.savetz.com/ku/ku/quick_genius_behind_hypercard_bill_atkinson_the_november_1987.html] Even web programming, at least initially, promoted a culture where anybody could contribute their content or software to the web.^[There seems to be a pattern where an environment is developed for alternative programmers, then as a consequence of success is overtaken by "real" programmers. Adobe Flash, originally designed for animators who wanted to work with interaction, also follows this pattern.]
 
 I believe a new generation of programmers is emerging. These "alternative" programmers are people who do not self-identify as programmers, but who regularly program computers in order to achieve their goals. Alternative programmers can include for example musicians, performers, writers, visual artists, designers, scientists, architects, and activists.
 
 Evidence of this emergence includes:
 
 1. The growth of the DIY hacker and maker cultures, with hacker spaces, hackathons, workshops, and meetups. These serve as social support structures for alternative programmers.
-2. Platforms and communities built around beginner-friendly, dive-right-in programming, such as Arduino and Processing.
+2. Platforms and communities built around beginner-friendly, dive-right-in programming, such as Arduino^[X] and Processing^[X].
 3. The ubiquitous use of computers as a means of creative expression, ranging from editing video for YouTube to using Max/MSP for live performances.
 
 Some alternative programmers take well to the current ecosystem of programming interfaces. But certain creative processes--relied on by alternative programmers in their other work--are inadequately accommodated by traditional programming interfaces. For example:
@@ -90,19 +90,19 @@ Some alternative programmers take well to the current ecosystem of programming i
 
 The use of computers in general for creative expression prompts the question: Where do we draw the line between *programming* and *authoring*--the use of specialized computer tools to produce specialized results? I don't have a good answer but I encourage the reader to take a broad view of programming. For the purposes of this paper, I will take programming to mean any instance of *designing a system*. Bret Victor's distinction between static and dynamic pictures may also be helpful.^[Dynamic Pictures Motivation]
 
-Like Smalltalk or Hypercard, I intend to blur the line between *programmer* and *user*, between programming and authoring. Consequently, throughout this paper the reader is encouraged to play with substituting the words "user" and "programmer".
+Like Smalltalk or Hypercard, I intend to blur the line between *programmer* and *user*, between programming and authoring. Consequently, throughout this paper the reader is encouraged to play with substituting the words "user" and "programmer."
 
 # Case Study: Recursive Drawing
 
 To explore and demonstrate alternative programming interfaces, I created Recursive Drawing. Recursive Drawing is a reimplementation of the textual programming language Context Free^[http://www.contextfreeart.org/phpbb/viewtopic.php?f=2&t=455] as a graphical, directly manipulable interface.
 
-Context Free is similar in thrust to Logo's Turtle Graphics. It is a small, elegant programming language for creating graphics. But the two languages diverge fundamentally in their semantics and the programming experience they induce. Logo has imperative semantics and induces in the programmer a "body syntonic"^[Papert, Mindstorms] feeling. The programmer directs a drawing robot's movements through space. Context Free has pure (side-effect free) semantics and induces in the programmer a more abstract, disembodied feeling. The programmer declaratively nests spatial transformations. Each declaration is independent of any global context, hence the name Context Free.
+Context Free is similar in thrust to Logo's Turtle Graphics^[X]. It is a small, elegant programming language for creating graphics. But the two languages diverge fundamentally in their semantics and the programming experience they induce. Logo has imperative semantics and induces in the programmer a "body syntonic"^[Papert, Mindstorms] feeling. The programmer directs a drawing robot's movements through space. Context Free has pure (side-effect free) semantics and induces in the programmer a more abstract, disembodied feeling. The programmer declaratively nests spatial transformations. Each declaration is independent of any global context, hence the name Context Free.
 
-In Context Free, the programmer specifies *rules*. A rule is simply a list of references to other rules, each with a spatial transformation (e.g. translation, rotation, scale) to apply to that rule. There are two primitive rules, circle and square, which simply draw the shape. Rules can reference themselves. See [Figure] for an example. ^[Recent versions of Context Free have many more features, but these basic ones will be sufficient for the purposes of this paper.]
+In Context Free, the programmer specifies *rules*. A rule is simply a list of references to other rules, each with a spatial transformation (e.g. translation, rotation, scale) to apply to that rule. There are two primitive rules, circle and square, which simply draw the shape. Rules can reference themselves. See Figure X for an example. ^[Context Free has many more features, but these basic ones will be sufficient for the purposes of this paper.]
 
-XXX need CF figure
+![A basic example of Context Free. The rule DRAWING draws a circle, then draws itself translated one unit to the right and scaled by a factor of 0.8.](figures/contextFreeExample.png)
 
-Through self-reference, Context Free encourages the exploration of self-similar shapes: fractals. These shapes are co-recursively generated infinite structures, the graphical equivalent to Lisp's streams or Haskell's infinite data structures. Execution of a Context Free program can be understood as the recursive substitution of rules with their definitions. Context Free features a form of lazy evaluation, in that when drawing to the screen, recursion halts when the shapes are too small to be seen (i.e., at a suitably small, sub-pixel size).
+Through self-reference, Context Free encourages the exploration of self-similar shapes: fractals. These shapes are co-recursively generated infinite structures, the graphical equivalent to Lisp's streams^[X] or Haskell's infinite data structures^[X]. Execution of a Context Free program can be understood as the recursive substitution of rules with their definitions. Context Free features a form of lazy evaluation, in that when drawing to the screen, recursion halts when the shapes are too small to be seen (i.e., at a suitably small, sub-pixel size).
 
 Context Free presents a paradox. On one hand, it features semantics which are considered advanced, even esoteric, by the mainstream programming community: referential transparency and co-recursive structures. On the other hand, it is visually intuitive and has been enthusiastically adopted by artists.^[cfa community]
 
@@ -119,11 +119,11 @@ In the following sections I will be contrasting Context Free with Recursive Draw
 
 # Rethinking Causality
 
-Programming is traditionally a forward-progressive, linear activity. We think in procedures: one thing leads to another. We have a goal in mind, but in order to reach our goal we start at the foundation and build our software step by step. This section explores relaxing this notion of linear, forward progression.
+Programming is traditionally a forward-progressive, linear activity. We think in procedures: one thing leads to another. We have a goal in mind, and in order to reach our goal we start at the foundation and build our software step by step. This section explores relaxing this notion of linear, forward progression.
 
 ## Cause and Effect
 
-Changing the source code of a program so as to effect a specifically desired change in its output is a very common activity in programming. Indeed this activity can be seen as equivalent to debugging.
+Changing the source code of a program so as to effect a specifically desired change in its output is a very common activity in programming. Indeed, in the context of traditional programming interfaces, this activity can be seen as equivalent to debugging.
 
 Traditionally, if a programmer wants to change the output of a program in a specific way, she must solve two problems:
 
@@ -155,7 +155,7 @@ The traditional workflow proceeds as normal. When the programmer modifies the so
 
 To illustrate, Context Free uses the one-way procedural programming model whereas Recursive Drawing uses the two-way constraint model.
 
-For example, when working with a self-referential rule in Context Free, the programmer can modify the transformation under which the rule calls itself. Because the rule is self-referential, this initial transformation gets called on itself iteratively so as to produce different recursive effects. The only way to adjust the recursive effects is to adjust the initial transformation. However in Recursive Drawing, the programmer can modify a shape *at any depth in the recursion*. This modification then back-propagates to the rule definition which specifies the initial transformation. This feature is implemented as a constraint solver (in this case, with a numerical algorithm).
+For example, when working with a self-referential rule in Context Free, the programmer can modify the transformation under which the rule calls itself. Because the rule is self-referential, this initial transformation gets called on itself iteratively so as to produce different recursive effects. The only way to adjust the recursive effects is to adjust the initial transformation. However in Recursive Drawing, the programmer can modify a shape *at any depth in the recursion* (Figure X). This modification then back-propagates to the rule definition which specifies the initial transformation. This feature is implemented as a constraint solver (in this case, with a numerical algorithm).
 
 It is important to note that users intuitively think of the common drag-and-drop convention as a constraint-based operation. When the user presses down the mouse button in preparation for dragging, she expects that the mouse pointer and the point she pressed on will remain constrained together. So when she moves the mouse, the object she is dragging moves with it. Recursive Drawing's constraint model is a generalization of this convention.
 
@@ -171,7 +171,7 @@ The abstraction pyramid has served us well in the past. Reductionism allows us t
 
 For example, users approach software differently than the creators of the software. Discrepancies inevitably arise between the model underlying the program and the model that forms in the user's mind. Many recognize these discrepancies as the root cause of usability issues.^[Design of Everyday Things] Often it is argued that the model needs to be simplified--made more elegant and powerful--so that the user can more fully grasp it. This is often true but it misses a subtle issue. A creator of software is concerned with its reductionist nature--the pyramid of pieces it's made out of. But the user of software is concerned with what she can *do* with the software. That is, the user is only concerned with the aspects of the software which are *operationally relevant* in the context of a larger system.^[The Inmates are Running the Asylum]
 
-The same applies to programmers approaching existing code. When we choose our representation for the program, we limit the ways in which we can easily modify the program. By "easily modify" I mean transforming the program without choosing new primitives--what programmers appropriately call "refactoring". This is why experienced developers think long and hard about the primitives they will use before they touch the keyboard.
+The same applies to programmers approaching existing code. When we choose our representation for the program, we limit the ways in which we can easily modify the program. By "easily modify" I mean transforming the program without choosing new primitives--what programmers appropriately call "refactoring." This is why experienced developers think long and hard about the primitives they will use before they touch the keyboard.
 
 Is there a way make refactoring cheaper? Is there an approach to program design that will not conceptually lock us in to the primitives we initially choose, so that we can open our minds to the various contexts in which our software might be used?
 
@@ -187,9 +187,9 @@ I'll provide two examples from Recursive Drawing. In each case, I will show how 
 
 The first example relates to how we traditionally use coordinate systems. In Context Free, the underlying representation consists of a hierarchy of coordinate systems. The nest-able coordinate system is a key primitive on which Context Free programs are built.
 
-Now, recursively nested spatial transformations are intrinsic to the concept of Context Free, but their representation as coordinate systems is an implementation detail which is forced on the programmer. Indeed early versions of Recursive Drawing did the same thing. Every coordinate system was explicitly shown in the graphical interface.
+Now, recursively nested spatial transformations are intrinsic to the concept of Context Free, but their representation as coordinate systems is an implementation detail which is forced on the programmer. Indeed early versions of Recursive Drawing did the same thing. Every coordinate system was explicitly shown in the interface as arrows. Additionally, the user could only manipulate the drawing by manipulating the arrows. (Figure X)
 
-[pic from 2]
+![An early version of Context Free. Coordinate systems are explicitly shown as arrows in the interface.](figures/recursiveDrawingCoordinateSystems.png)
 
 When we force an underlying representation on the programmer, *program transformations can only be performed with respect to that underlying representation*. Indeed this is the only way to tweak a Context Free Art program. The programmer must tweak a value which makes a change with respect to the coordinate system that the value lives in.
 
@@ -203,7 +203,11 @@ A heuristic we can use to produce an ontology in a given context is based on the
 
 To illustrate, say we have a rigid body like a coffee cup. It is unclear that this should be a single object if we're looking at it in the context of atoms or quantum clouds. However, in the context of everyday interactions, we can identify the coffee cup as a single entity. We determine this based on the transformations available in our everyday interaction context. If I transform the handle of the cup by lifting it two feet upwards, then the rest of the cup is also lifted two feet upwards. Rigidity by definition implies that a transformation on any given point of the object must apply uniformly to every other point on the object. In this way, an operational context--a set of allowable transformations--implies an ontology.
 
-This principle was violated in early versions of Recursive Drawing. In an initial design, a primitive shape (circle or square) was always individually highlighted when the programmer hovered her mouse over it. This was intended to show the relevant parts of the abstraction pyramid, to help the programmer comprehend the reductionist model. But in user testing, I realized that the feature was confusing. It made users think they could only manipulate primitive shapes individually, not understanding that they could define compound shapes out of the primitive shapes. An improvement was when highlighting was applied to *all* shapes which would transform uniformly if the user started dragging the hovered shape. If it moves the same, it is the same. This more closely mapped a user's intuition about what constituted a singular object.
+This principle was violated in early versions of Recursive Drawing. In an initial design, the highest level (the rule) and the lowest level (a primitive shape, circle or square) of the hierarchy were always highlighted when the programmer hovered her mouse over a shape (Figure X). This was intended to show the relevant parts of the abstraction pyramid, to help the programmer comprehend the reductionist model. But in user testing, I found that users were confused about what shape would move when they performed a manipulation. An improvement was made when highlighting the lowest level was changed to highlighting *all* shapes which would transform uniformly if the user started dragging (Figure X). If it moves the same, it is the same. This more closely mapped a user's intuition about what constituted a singular object.
+
+![Highlighting based on the abstraction pyramid.](figures/highlighting1.png)
+
+![Highlighting based on what will transform uniformly.](figures/highlighting2.png)
 
 In each of these examples, when I started from a reductionist perspective, the primitives of the model determined the transformations that were available to the programmer. This could be seen as a pernicious form of representation exposure. In the alternate version, the transformations available in a given context were considered first. These transformations then implied an appropriate model to display to the programmer in that context.
 
@@ -213,9 +217,15 @@ Context Free powerfully exploits recursion, allowing programmers to create compl
 
 This experimentation can lead to unexpected insights which would be difficult to attain in a textual programming interface. For example, these are all insights I had into the mathematics of these shapes while playing with Recursive Drawing:
 
-1. Seeing how a convergent transformation applied iteratively always converges to the same point despite its initial position. This is perhaps the graphical equivalent of saying if you keep dividing by 2 you will approach 0 no matter what number you start at. By dragging around the base case, I was able to gain a kinesthetic understanding of this principle. [Figure]
-2. Seeing how spirals, with iterative rotation amounts close to exact multiples of 360 degrees, create second order spirals. [Figure]
-3. Seeing how the Fibonacci series is exponential binary branching with one branch "carried up a level." [Figure]
+1. Seeing how a convergent transformation applied iteratively always converges to the same point despite its initial position. This is perhaps the graphical equivalent of saying if you keep dividing by 2 you will approach 0 no matter what number you start at. By dragging around the base case, I was able to gain a kinesthetic understanding of this principle. (Figure X)
+
+    ![Convergent transformations always converge to the same point.](figures/convergence.png)
+
+2. Seeing how spirals, with iterative rotation amounts close to exact multiples of 360 degrees, create second-order spirals. (Figure X)
+
+    ![A single spiral creating second-order spirals.](figures/spirals.png)
+
+3. Seeing how the Fibonacci series is exponential binary branching with one branch "carried up a level." (Figure X)
 
 Recursive Drawing has several weaknesses compared to Context Free.
 
