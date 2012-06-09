@@ -17,7 +17,7 @@ layout: nil
       <title>{{ post.title }}</title>
       <link>http://totem.cc{{ post.url }}</link>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-      <author>Toby Schachman</author>
+      <author>tqs@alum.mit.edu (Toby Schachman)</author>
       <guid>http://totem.cc{{ post.id }}</guid>
       <description>{{ post.content | xml_escape }}</description>
     </item>
