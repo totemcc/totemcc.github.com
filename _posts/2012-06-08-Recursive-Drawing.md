@@ -7,7 +7,7 @@ title: Recursive Drawing
 
 You can try [Recursive Drawing](http://recursivedrawing.com/) in the browser.
 
-<iframe src="http://player.vimeo.com/video/41822151?title=0&amp;byline=0&amp;portrait=0" width="540" height="304" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="http://player.vimeo.com/video/41822151?title=0&amp;byline=0&amp;portrait=0" width="580" height="327" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ## Origins
 

@@ -1,6 +1,6 @@
 body {
   font-family: georgia;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.5;
   color: #222;
 }
@@ -24,10 +24,10 @@ strong {
 
 header {
   background-color: #eee;
-  padding: 12px 18px 18px 72px;
+  padding: 12px 12px 18px 72px;
 }
 header h1 {
-  font-size: 40px;
+  font-size: 42px;
 }
 .byline {
   color: #666;
@@ -47,19 +47,19 @@ footer a {
 
 
 .post {
-  max-width: 540px;
+  max-width: 580px;
   margin: 72px 72px 144px 72px;
 }
 .title {
   text-align: center;
-  margin-bottom: 39px;
+  margin-bottom: 36px;
 }
 .date {
   color: #999;
 }
 
 h1 {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
   color: #000;
 }
@@ -69,24 +69,24 @@ h1 a, h1 a:visited {
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
-  margin: 26px 0px 13px -24px;
+  margin: 32px 0px 16px -24px;
   color: #000;
 }
 
 h3 {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: bold;
-  margin: 26px 0px 13px 0px;
+  margin: 32px 0px 16px 0px;
   color: #000;
 }
 
 p {
-  margin: 13px 0px 13px 0px;
+  margin: 16px 0px 16px 0px;
 }
 
 li {
-  margin-left: 18px;
-  margin-bottom: 13px;
+  margin-left: 24px;
+  margin-bottom: 16px;
 }
