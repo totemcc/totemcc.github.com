@@ -44,5 +44,5 @@ The second is working with other types of spaces (higher-dimensional, non-Euclid
 ## Resources
 
 1. I kept a [Tumblr journal of research](http://collidingcontexts.tumblr.com/) as I worked on my thesis. It's full of interesting links.
-2. Here's [the first proof of concept](http://electronicwhisper.github.com/toys/1/) of Recursive Drawing. It showed that an interface for recursive manipulation would *feel* good. Here's [the second](http://electronicwhisper.github.com/toys/2/). I emphasized the use of arrows to orient the nested coordinate systems until I realized that this was a representation exposure.
+2. Here's [the first proof of concept](http://electronicwhisper.github.com/toys/1/) of Recursive Drawing. It showed that an interface for recursive manipulation would *feel* good. Here's [the second](http://electronicwhisper.github.com/toys/2/). I emphasized the use of arrows as widgets to orient the nested coordinate systems until I realized that this was a representation exposure.
 3. High level textual implementations of shaders include Conal Elliott's [Pan](http://conal.net/Pan/) and Sean McDirmid's [Bling](http://bling.codeplex.com/). See also [this discussion](http://lambda-the-ultimate.org/node/4326) on LtU.
