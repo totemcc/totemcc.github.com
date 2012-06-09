@@ -1,0 +1,9 @@
+---
+layout: layout
+title: Totem - Experiments in new forms of human-computer collaboration
+---
+
+{% for page in site.posts %}
+  {% assign content = page.content %}
+  {% include post.html %}
+{% endfor %}
