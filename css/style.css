@@ -33,6 +33,17 @@ header h1 {
   color: #666;
 }
 
+footer {
+  background-color: #eee;
+  padding: 12px 12px 12px 72px;
+}
+footer a, footer a:visited {
+  color: #333;
+}
+footer a {
+  padding-right: 24px;
+}
+
 
 
 .post {
